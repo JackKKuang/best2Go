@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.top-area {
+    border-bottom: 5px solid #8E7A7A;
+    display: flex;
+    width: 97%;
+    padding: 20px 20px;
+}
+
+.logo {
+    border: 3px solid #8E7A7A;
+    background: #8E7A7A;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+  
+}
+
+.left-section-top {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.top-area h3 {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-section-top {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.right-section-top .profile {
+    width: 50px;
+    height: 50px;
+    background: #8E7A7A;
+    border-radius: 10px;
+}
+
+.middle-top {
+    margin-top: 26px;
+
+}
+
+.middle-top h3 {
+    margin-left: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.middle-top .map {
+    width: 90%;
+    height: 250px;
+    border: 2.5px solid #8E7A7A;
+    border-radius: 7px;
+    margin-top: 0;
+}
+
+.map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-area {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 90%;
+    height: 100%;
+    border: 2.5px solid #8E7A7A;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+#section1{
+    border-radius:5px;
+    margin-top:25px;
+    margin-bottom:25px;
+    padding:25px;
+    padding-left:0px;
+    padding-right:0px;
+    margin:10px;
+    background-color: rgba(142, 122, 122, 0.1);
+}
+
+.recommended-area {
+    /*border-top: 2px solid #8E7A7A;
+    border-bottom: 2px solid #8E7A7A;*/
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.recommended-card {
+    border-radius: 8px;
+    border: 6px solid #8E7A7A;
+    width: 93%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recommended-title {
+    margin-top: 10px;
+    margin-bottom:15px;
+    margin-left: 22px;
+    font-size:2em;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    border: 7px solid #AAAAAA;
+    border-radius:6px;
+    max-width:500px;
+}
