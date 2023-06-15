@@ -2,23 +2,55 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f0f0ff;
+    
 }
 
 .top {
+    width:100%;
     display: flex;
+    flex-direction: column;
+    position:fixed;
+    top: 0;
     justify-content: center;
 }
 
-.top-area {
-    border-bottom: 5px solid #8E7A7A;
+#anchors{
+    width:100%;
+    background-color:#3cB043;
+    border-bottom:10px solid #2ea334;
+    height:50px;
+    align-items: center;
     display: flex;
-    width: 97%;
-    padding: 20px 20px;
+    justify-content:center;
+    padding: 5rem;
+    top:1vh;
+}
+
+#anchors a {
+    text-decoration: none; 
+    color:white;
+    border: 1px solid #fff;
+    padding:10px;
+    min-width:20%;
+    text-align:center;
+    margin-right: 4vw;
+}
+
+h3{
+    font-weight: bold;
+}
+.top-area {
+    display:flex;
+    width:100%;
+    background-color:#fefefe;
+    padding:10px;
+    border-bottom: 5px solid #BBB;
 }
 
 .logo {
-    border: 3px solid #8E7A7A;
-    background: #8E7A7A;
+    border: 1px solid #3961b6;
+    background-image: "favicon\android-chrome-512x512.png";
     border-radius: 10px;
     width: 50px;
     height: 50px;
@@ -46,13 +78,17 @@ body {
 .right-section-top .profile {
     width: 50px;
     height: 50px;
-    background: #8E7A7A;
+    background: #3cB043;
     border-radius: 10px;
 }
 
 .middle-top {
     margin-top: 26px;
-
+    background-color: rgba(127, 127, 110, 0.2);
+    border-bottom: 10px solid rgba(127, 127, 110, 0.058);
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:10px;
 }
 
 .middle-top h3 {
@@ -63,7 +99,7 @@ body {
 .middle-top .map {
     width: 90%;
     height: 250px;
-    border: 2.5px solid #8E7A7A;
+    border: 2.5px solid #6e4f16;
     border-radius: 7px;
     margin-top: 0;
 }
@@ -93,14 +129,14 @@ body {
 }
 
 #section1{
-    border-radius:5px;
-    margin-top:25px;
+    position:block;
+    margin-top:190px;
     margin-bottom:25px;
     padding:25px;
     padding-left:0px;
     padding-right:0px;
-    margin:10px;
-    background-color: rgba(142, 122, 122, 0.1);
+    background-color: rgba(46, 163, 52, 0.4);
+    border-bottom:10px solid rgba(46, 163, 52, 0.5);
 }
 
 .recommended-area {
@@ -114,7 +150,7 @@ body {
 
 .recommended-card {
     border-radius: 8px;
-    border: 6px solid #8E7A7A;
+    border: 6px solid #33270d;
     width: 93%;
     height: 100%;
     object-fit: cover;
@@ -128,8 +164,15 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-body{
-    border: 7px solid #AAAAAA;
-    border-radius:6px;
-    max-width:500px;
-}
+@media only screen and (max-width: 600px) {
+    
+    #anchors a {
+        text-decoration: none; 
+        border: 1px solid #fff;
+        padding:5px;
+        width:90px;
+        margin:5px;
+        text-align:center;
+        margin-right: 0px;
+    }
+  }

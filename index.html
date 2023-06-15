@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <title>Best2Go</title>
+
+    <link rel="icon" type="image/x-icon" href="\Users\hightechu2023-02\Downloads\best2Go-main\best2Go-main\favicon\favicon.ico.ico">
 </head>
 <body>    
 
@@ -19,24 +21,33 @@
     <div class="top">
         <div class="top-area">
             <div class="left-section-top">
-                <div class="logo"></div>
-                <h3>Best2Go</h3>
+                <img src="favicon\android-chrome-512x512.png" class="logo">
+                <marquee direction="right"> <h3>Welcome to the community!</h3></marquee>
             </div>
             <div class="right-section-top">
-                <div class="profile"></div>
+                <img class="profile" src="images/profilePic.png">
             </div>
+        </div>
+
+        <div id="anchors">
+            
+            <a href = "home.html">HOME</a>
+            <a href = "browse.html">BROWSE</a>
+            <a href = "offers.html">OFFERS</a>
+            <a href = "profile.html">PROFILE</a>
+
         </div>
     </div>
     
-    <div id="section1">
+    <div id="section1" class="applyBorder">
         <h3 class="recommended-title">Businesses Near You</h3>
         <div class="recommended-area">
-            <img class="recommended-card" src="images/dummyMap.jfif">
+            <img class="recommended-card" src="images/heroImage.jpg">
         </div>
     </div>
 
-    <div class="middle-top">
-        <h3>Businesses Near You</h3>
+    <div class="middle-top" class="applyBorder">
+        <h3>Search for a Businesses Near You</h3>
         <div class="search-area">
             <input type="text" placeholder="Search" class="search-bar">
         </div>
@@ -44,6 +55,8 @@
             <div class="map"></div>
         </div>
     </div>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
