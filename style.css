@@ -136,7 +136,7 @@ h3{
     padding:25px;
     padding-left:0px;
     padding-right:0px;
-    background-color: rgba(46, 163, 52, 0.4);
+    background-color: rgb(171 222 174 / 40%);
     border-bottom:10px solid rgba(46, 163, 52, 0.5);
 }
 
@@ -151,7 +151,7 @@ h3{
 
 .recommended-card {
     border-radius: 8px;
-    border: 6px solid #33270d;
+    border: 6px solid #FFF;
     width: 93%;
     height: 100%;
     object-fit: cover;
